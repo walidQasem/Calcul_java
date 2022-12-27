@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-     TextView resulta,affichage;
+    TextView resulta,affichage;
     String somme2="";
     boolean isOper=false;
     String operator;
@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
                  if(btne.getText().equals("x")){
                    int  l = resulta.getText().toString().length();
                    if(l==1){
-                       resulta.setText("0");
+                       resulta.setText("00");
                    }
                    else {
                        resulta.setText(resulta.getText().toString().substring(0, l - 2));
